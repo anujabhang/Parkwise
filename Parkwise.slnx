@@ -2,5 +2,5 @@
   <Folder Name="/Solution Items/">
     <File Path=".editorconfig" />
   </Folder>
-  <Project Path="Parkwise/Parkwise.csproj" />
+  <Project Path="Parkwise.WebApp\Parkwise.WebApp.csproj" />
 </Solution>
