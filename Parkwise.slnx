@@ -4,5 +4,6 @@
     <File Path="Directory.Build.props" />
     <File Path="Directory.Packages.props" />
   </Folder>
+  <Project Path="Parkwise.AppHost/Parkwise.AppHost.csproj" />
   <Project Path="Parkwise.WebApp\Parkwise.WebApp.csproj" />
 </Solution>
