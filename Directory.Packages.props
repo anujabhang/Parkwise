@@ -4,6 +4,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="10.0.11" />
+    <PackageVersion Include="Scalar.AspNetCore" Version="2.17.1" />
     <PackageVersion Include="SonarAnalyzer.CSharp" Version="10.32.0.713" />
   </ItemGroup>
 </Project>

@@ -5,7 +5,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     </PropertyGroup>
-    <ItemGroup Condition="'$(MSBuildProjectExtension)' != '.dcproj'">
+    <ItemGroup Condition="'$(MSBuildProjectExtension)' != '.dcproj' AND '$(ManagePackageVersionsCentrally)' == 'true'">
         <PackageReference Include="SonarAnalyzer.CSharp">
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
